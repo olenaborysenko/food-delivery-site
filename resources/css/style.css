@@ -346,3 +346,63 @@ section {
 	margin-right: 10px;
 	vertical-align: middle;
 }
+
+
+/*SIGH-UP PRICES*/
+
+.plans {
+	background-color: #F4F4F4;
+}
+
+.plans__box {
+	background-color: #FFF;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #ECECEC;
+}
+
+.plans__box div {
+	padding: 15px;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.plans__name {
+	background-color: #FCFCFC;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.plans__price {
+	font-size: 3rem;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #E67E22;
+}
+
+.plans__price span {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.plans__price-meal {
+	font-size: .8rem;
+}
+
+.plans__features {
+	list-style: none;
+}
+
+.plans__feature {
+	padding: 5px 0;
+}
+
+.plans__feature i {
+	margin-right: 10px;
+	color: #E67E22;
+}
+
+.plans__box .plans__signup {
+	text-align: center;
+	border-bottom: 1px solid transparent;
+}
