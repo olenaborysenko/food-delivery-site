@@ -91,6 +91,21 @@ html {
 	color: #FFF;
 }
 
+.link:link,
+.link:visited {
+	color: #E67E22;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #E67E22;
+	transition: all .2s;
+}
+
+.link:hover,
+.link:active {
+	color: #555;
+	border-bottom: 1px solid transparent;
+}
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -98,6 +113,10 @@ html {
 
 section {
 	padding: 80px 0;
+}
+
+.box {
+	padding: 1%;
 }
 
 
@@ -159,10 +178,6 @@ section {
 	width: 70%;
 	margin-left: 15%;
 	margin-bottom: 30px;
-}
-
-.features__box {
-	padding: 1%;
 }
 
 .features__icon {
@@ -265,4 +280,28 @@ section {
 	height: 50px;
 	margin-right: 10px;
 	margin-top: 30px;
+}
+
+
+/*CITIES*/
+
+.cities__photo {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.cities__feature {
+	margin-bottom: 5px;
+}
+
+.cities__feature i {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	color: #E67E22;
+	font-size: 1.2rem;
+	margin-right: 10px;
+	line-height: 1.2rem;
+	vertical-align: middle;
+	margin-top: -4px;
 }
