@@ -190,6 +190,12 @@ section {
 	margin-bottom: 0;
 }
 
+.meals__row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 .meals__item {
 	display: block;
 	float: left;
@@ -212,4 +218,51 @@ section {
 .meals__img:hover {
 	transform: scale(1.05);
 	opacity: 1;
+}
+
+
+/*HOW-IT-WORKS*/
+
+.steps {
+	background-color: #F4F4F4;
+}
+
+.steps__col:first-child {
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 30px;
+}
+
+.steps__col:last-child {
+	padding-left: 3%;
+	margin-top: 70px;
+}
+
+.steps__photo {
+	width: 40%;
+}
+
+.steps__container {
+	margin-bottom: 50px;
+}
+
+.steps__num {
+	color: #E67E22;
+	border: 2px solid #E67E22;
+	display: inline-block;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	padding: 7px;
+	float: left;
+	font-size: 1.5rem;
+	margin-right: 25px;
+}
+
+.steps__app-link {
+	display: inline-block;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 30px;
 }
