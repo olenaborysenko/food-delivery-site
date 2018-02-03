@@ -17,6 +17,41 @@ html {
 
 /*REUSABLE COMPONENTS*/
 
+.heading {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.heading--primary {
+	color: #FFF;
+	font-size: 2.4rem;
+	word-spacing: 4px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.heading--secondary {
+	font-size: 1.8rem;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+.heading--secondary:after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100px;
+	background-color: #E67E22;
+	margin: 30px auto 0;
+}
+
+.heading--tertiary {
+	font-size: 1.1rem;
+	margin-bottom: 15px;
+}
+
 .btn:link, 
 .btn:visited {
 	display: inline-block;
@@ -59,6 +94,10 @@ html {
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
+}
+
+section {
+	padding: 80px 0;
 }
 
 
@@ -112,12 +151,65 @@ html {
 	transform: translate(-50%, -50%);
 }
 
-.hero__heading {
-	color: #FFF;
-	font-size: 2.4rem;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	word-spacing: 4px;
-	margin-bottom: 20px;
+
+/*FEATURES SECTION*/
+
+.features__description {
+	line-height: 1.45rem;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 30px;
+}
+
+.features__box {
+	padding: 1%;
+}
+
+.features__icon {
+	font-size: 2.5rem;
+	display: block;
+	color: #E67E22;
+	margin-bottom: 10px;
+}
+
+.features__text {
+	font-size: .9rem;
+	line-height: 1.45rem;
+}
+
+
+/*FAVORITE MEALS*/
+
+.meals {
+	padding: 0;
+}
+
+.meals__row {
+	list-style: none;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.meals__item {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.meals__figure {
+	width: 100%;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.meals__img {
+	opacity: .7;
+	width: 100%;
+	transform: scale(1.15);
+	transition: all .5s;
+}
+
+.meals__img:hover {
+	transform: scale(1.05);
+	opacity: 1;
 }
