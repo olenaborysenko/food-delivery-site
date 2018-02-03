@@ -53,7 +53,8 @@ html {
 }
 
 .btn:link, 
-.btn:visited {
+.btn:visited,
+input[type=submit] {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -64,7 +65,8 @@ html {
 }
 
 .btn--full:link, 
-.btn--full:visited {
+.btn--full:visited,
+input[type=submit] {
 	background: #E67E22;
 	border: 1px solid #E67E22;
 }
@@ -76,12 +78,16 @@ html {
 }
 
 .btn:hover, 
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
 	background-color: #B34B00;
 }
 
 .btn--full:hover, 
-.btn--full:active {
+.btn--full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
 	border: 1px solid #B34B00;
 }
 
@@ -405,4 +411,34 @@ section {
 .plans__box .plans__signup {
 	text-align: center;
 	border-bottom: 1px solid transparent;
+}
+
+
+/*CONTACT FORM*/
+
+.contact__form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contact__form input[type=text],
+.contact__form input[type=email],
+.contact__form select,
+.contact__form textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+}
+
+.contact__form textarea {
+	height: 100px;
+}
+
+.contact__form input[type=checkbox] {
+	margin: 10px 5px 10px 0;
+}
+
+.contact__form *:focus {
+	outline: none;
 }
