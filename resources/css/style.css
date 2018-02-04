@@ -317,7 +317,7 @@ section {
 	margin-right: 10px;
 	line-height: 1.2rem;
 	vertical-align: middle;
-	margin-top: -4px;
+	margin-top: -5px;
 }
 
 
@@ -518,6 +518,20 @@ section {
 
 .footer .ion-social-instagram:hover {
 	color: #C32AA3;
+}
+
+.footer__app-links {
+	margin-top: 10px;
+}
+
+.footer__app-links-text {
+	display: inline-block;
+	color: #888;
+	margin-right: 20px;
+}
+
+.footer__app-links i {
+	font-size: 1.1rem;
 }
 
 .footer__copyright {

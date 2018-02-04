@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1200px) {
+	.hero__text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+
+	.row { padding: 0 2%; }
+}
+
+@media only screen and (max-width: 1023px) {
+	body { font-size: 18px; }
+	section { padding: 60px 0; }
+
+	.features__description {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.steps__col:first-child, .steps__col:last-child { margin-top: 10px; }
+	.steps__container { margin-bottom: 40px; }
+	.steps__app-link { margin-top: 15px; }
+	.steps__photo { width: 50%; }
+
+	.cities .heading--tertiary { font-size: 1rem;	}
+	.cities__feature { font-size: .9rem; }
+	.cities__feature i { 
+		width: 16px; 
+		margin-right: 5px;
+	}
+	
+	.plans__box { width: 100%; }
+	.plans__price { font-size: 2rem; }
+
+	.contact__form { width: 80%; }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
