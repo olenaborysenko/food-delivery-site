@@ -71,4 +71,19 @@ $(document).ready(function() {
 		offset: "50%"
 	});
 
+
+	//mobile nav
+	$(".js--nav-icon").click(function() {
+		var nav = $(".js--main-nav");
+		nav.slideToggle(200);
+
+		var icon = $(".js--nav-icon");
+		if (icon.hasClass("ion-navicon")) {
+			icon.addClass("ion-android-close");
+			icon.removeClass("ion-navicon");
+		} else {
+			icon.addClass("ion-navicon");
+			icon.removeClass("ion-android-close");
+		}
+	});
 });

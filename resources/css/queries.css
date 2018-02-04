@@ -52,6 +52,28 @@
 
 	.hero__nav-list { display: none; }
 
+	.mobile-nav-icon { display: inline-block; }
+	.hero__nav-list { 
+		float: left;
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	.hero__nav-list-item { display: block; }
+	.hero__nav-list-item a:link,
+	.hero__nav-list-item a:visited { 
+		display: block;
+		border: 0;
+		padding: 5px 0;
+		font-size: 1rem;
+	}
+
+	.hero__nav--fixed .hero__nav-list-item a:link,
+	.hero__nav--fixed .hero__nav-list-item a:visited { padding: 5px 0; }
+	.hero__nav--fixed .hero__nav-list { margin-top: 10px; }
+	.hero__nav--fixed .mobile-nav-icon { margin-top: 5px; }
+	.hero__nav--fixed .mobile-nav-icon i { color: #555; }
+
+
 	.features { text-align: center; }
 	.features__description { 
 		width: 100%;
