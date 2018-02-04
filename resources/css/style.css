@@ -585,14 +585,11 @@ section {
 	color: #C32AA3;
 }
 
-.footer__app-links {
-	margin-top: 10px;
-}
-
 .footer__app-links-text {
 	display: inline-block;
 	color: #888;
 	margin-right: 20px;
+	margin-top: 10px;
 }
 
 .footer__app-links i {
