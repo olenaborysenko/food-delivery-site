@@ -32,7 +32,7 @@
 	.plans__box { width: 100%; }
 	.plans__price { font-size: 2rem; }
 
-	.contact__form { width: 80%; }
+	.contact__form { width: 90%; }
 
 }
 
@@ -103,8 +103,19 @@
 		margin-left: 10%;
 	}
 
-	.contact__form { width: 85%; }
+	.contact__form { width: 100%; }
+	.contact__form textarea { height: 70px; }
 	.contact__submit { text-align: center; }
+	.contact__submit .span-1-of-3 { display: none; }
+
+	.contact { height: auto; }
+	.contact__map { height: 250px; }
+	.contact__form-box {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding-top: 30px;
+	}
 
 	.footer__box { width: 50%; }
 	.footer__social-link i { font-size: 1.2rem; }
@@ -122,8 +133,6 @@
 		width: 90%;
 		margin-left: 5%;
 	}
-
-	.contact__form { width: 100%; }
 
 	.footer__social-link i { font-size: 1.1rem; }
 	.footer__copyright { font-size: .9rem; }

@@ -86,4 +86,22 @@ $(document).ready(function() {
 			icon.removeClass("ion-android-close");
 		}
 	});
+
+	//map
+	var map = new GMaps({
+		div: ".contact__map",
+		lat: 37.774929,
+		lng: -122.395,
+		zoom: 13
+	});
+
+	map.addMarker({
+			lat: 37.774929,
+			lng: -122.419416,
+			title: "San Francisco",
+			infoWindow: {
+				content: '<p>Our San Francisco HQ</p>'
+			}
+		});
+
 });
