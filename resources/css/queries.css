@@ -16,7 +16,8 @@
 		margin-left: 10%;
 	}
 
-	.steps__col:first-child, .steps__col:last-child { margin-top: 10px; }
+	.steps__col:first-child, 
+	.steps__col:last-child { margin-top: 10px; }
 	.steps__container { margin-bottom: 40px; }
 	.steps__app-link { margin-top: 15px; }
 	.steps__photo { width: 50%; }
@@ -36,9 +37,72 @@
 }
 
 @media only screen and (max-width: 767px) {
+	body { font-size: 16px; }
+	section { padding: 35px 0; }
+
+	.row,
+	.hero__text-box { padding: 0 4%; }
+	.col { 
+		width: 100%;
+		margin: 0 0 4%;
+	}
+
+	.heading--primary { font-size: 1.8rem; }
+	.heading--secondary { font-size: 1.5rem; }
+
+	.hero__nav-list { display: none; }
+
+	.features { text-align: center; }
+	.features__description { 
+		width: 100%;
+		margin-left: 0; 
+	}
+
+	.steps__col:first-child,
+	.steps__app-links { text-align: center; }
+	.steps__col:first-child,
+	.steps__col:last-child { padding: 0 }
+	.steps__photo {
+		width: 30%;
+	}
+	.steps__num {
+		width: 40px;
+		height: 40px;
+		padding-top: 1px;
+		font-size: 1.3rem;
+		margin-right: 15px;
+	}
+	.steps__descr {
+		padding-top: 4px;
+	}
+	
+	.plans__box {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.contact__form { width: 85%; }
+	.contact__submit { text-align: center; }
+
+	.footer__box { width: 50%; }
+	.footer__social-link i { font-size: 1.2rem; }
 
 }
 
 @media only screen and (max-width: 480px) {
+	body { font-size: 14px; }
+	section { padding: 25px 0; }
 
+
+	.testimonials__author-img { height: 35px; }
+
+	.plans__box {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.contact__form { width: 100%; }
+
+	.footer__social-link i { font-size: 1.1rem; }
+	.footer__copyright { font-size: .9rem; }
 }
