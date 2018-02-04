@@ -155,6 +155,13 @@ section {
 	margin-top: 20px;
 }
 
+.hero__logo--black {
+	height: 50px;
+	float: left;
+	margin: 5px 0;
+	display: none;
+}
+
 .hero__nav-list {
 	float: right;
 	list-style: none;
@@ -191,6 +198,36 @@ section {
 	-webkit-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
 }
+
+/*Fixed Nav*/
+.hero__nav--fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .95);
+	box-shadow: 0 2px 2px #EFEFEF;
+	z-index: 999;
+}
+
+.hero__nav--fixed .hero__nav-list-item a:link,
+.hero__nav--fixed .hero__nav-list-item a:visited {
+	padding: 16px 0;
+	color: #555;
+}
+
+.hero__nav--fixed .hero__logo {
+	display: none;
+}
+
+.hero__nav--fixed .hero__logo--black {
+	display: block;
+}
+
+.hero__nav--fixed .hero__nav-list {
+	margin-top: 20px;
+}
+
 
 
 /*FEATURES SECTION*/
