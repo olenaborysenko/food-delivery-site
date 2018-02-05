@@ -298,15 +298,15 @@ section {
 .meals__img {
 	opacity: .7;
 	width: 100%;
-	-webkit-transform: scale(1.15);
-	        transform: scale(1.15);
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
 	-webkit-transition: all .5s;
 	transition: all .5s;
 }
 
 .meals__img:hover {
-	-webkit-transform: scale(1.05);
-	        transform: scale(1.05);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 	opacity: 1;
 }
 
@@ -616,7 +616,7 @@ section {
 }
 
 .footer__app-links i {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .footer__copyright {

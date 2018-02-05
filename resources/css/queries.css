@@ -121,7 +121,9 @@
 		padding-top: 30px;
 	}
 
+	.footer { padding: 20px; }
 	.footer__box { width: 50%; }
+	.footer__nav-link { font-size: .9rem; }
 	.footer__social-link i { font-size: 1.2rem; }
 
 }
