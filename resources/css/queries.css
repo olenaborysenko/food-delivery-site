@@ -51,6 +51,10 @@
 	.heading--secondary { font-size: 1.5rem; }
 
 	.hero__nav-list { display: none; }
+	.hero__logo { 
+		width: 75px;
+		height: 75px;
+	}
 
 	.mobile-nav-icon { display: inline-block; }
 	.hero__nav-list { 
@@ -126,6 +130,8 @@
 	body { font-size: 14px; }
 	section { padding: 25px 0; }
 
+
+	.hero__nav-list { margin-left: 15px; }
 
 	.testimonials__author-img { height: 35px; }
 
